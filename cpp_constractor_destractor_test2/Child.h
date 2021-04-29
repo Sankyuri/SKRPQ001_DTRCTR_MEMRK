@@ -8,6 +8,8 @@ public:
     Child();
     virtual ~Child();
 
+    void virtdummy() override;
+
 
     Datas m_datas;
 

@@ -10,5 +10,10 @@ Child::~Child() {
 	std::cout << "Child のデストラクタ" << std::endl;
 }
 
+void Child::virtdummy()
+{
+	// none
+}
+
 
 
